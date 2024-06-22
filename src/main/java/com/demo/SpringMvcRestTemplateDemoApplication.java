@@ -6,7 +6,10 @@ import org.springframework.context.annotation.Bean;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import io.swagger.v3.oas.annotations.OpenAPIDefinition;
+
 @SpringBootApplication
+@OpenAPIDefinition
 public class SpringMvcRestTemplateDemoApplication {
 
 	public static void main(String[] args) {
