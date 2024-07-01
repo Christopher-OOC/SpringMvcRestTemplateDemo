@@ -15,7 +15,7 @@ public class MainController {
 	public String viewHomePage(Model model) {
 		try {
 			RealtimeWeather realtimeWeather = weatherService.getRealtimeWeather();
-			
+			System.out.println(realtimeWeather);
 			model.addAttribute("weather", realtimeWeather);
 		
 			return "index";

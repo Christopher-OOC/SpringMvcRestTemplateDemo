@@ -5,5 +5,5 @@ api:
         uri: http://localhost:8080/v1/realtime/DELHI_IN
 server:
   servlet:
-    context-path: /WeatherForecast
+    context-path: /
   port: 8001
